@@ -24,7 +24,9 @@ git merge --ff-only feature/foo
 
 # Blame line from file
 
-git blame -l $PATH_TO_FILE | grep 738
+git blame -L $RANGE  $PATH_TO_FILE
+
+$RANGE = 1,2
 
 ## Reset to commit
 
