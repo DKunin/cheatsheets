@@ -1,11 +1,17 @@
 # Git Cheatsheet
 
-## Delete branch both locally and remotely
+## Eradicate branch
+```
+git branch -D :localbranch
+git push origin --delete :remote_branch
+```
 
+### Example
 ```
-git branch -D branch-name
-git push origin --delete branch-name
+git branch -D AVPM-15319-email
+git push origin --delete AVPM-15319-email
 ```
+
 
 ## Merge branch without merge commit
 
@@ -22,8 +28,6 @@ git merge --ff-only feature/foo
 
 [Source](http://stackoverflow.com/a/16358699/5147646)
 
-## List remote branches
+# Blame line from file
 
-```
-git branch -r 
-```
+git blame -l $PATH_TO_FILE | grep 738
