@@ -25,3 +25,16 @@ git merge --ff-only feature/foo
 # Blame line from file
 
 git blame -l $PATH_TO_FILE | grep 738
+
+## Reset to commit
+
+# Reset the index to the desired tree
+git reset 56e05fced
+
+# Move the branch pointer back to the previous HEAD
+git reset --soft HEAD@{1}
+
+git commit -m "Revert to 56e05fced"
+
+# Update working copy to reflect the new commit
+git reset --hard
