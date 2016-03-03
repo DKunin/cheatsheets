@@ -6,12 +6,6 @@ git branch -D :localbranch
 git push origin --delete :remote_branch
 ```
 
-### Example
-```
-git branch -D AVPM-15319-email
-git push origin --delete AVPM-15319-email
-```
-
 
 ## Merge branch without merge commit
 
