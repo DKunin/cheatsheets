@@ -34,11 +34,10 @@ $RANGE = 1,2
       git reset 56e05fced
 
 # Move the branch pointer back to the previous HEAD
-```
-git reset --soft HEAD@{1}
 
-git commit -m "Revert to 56e05fced"
-```
+      git reset --soft HEAD@{1}
+      git commit -m "Revert to 56e05fced"
+
 # Update working copy to reflect the new commit
       git reset --hard
 
@@ -55,3 +54,10 @@ git commit -m "Revert to 56e05fced"
 # Remove local branches
       git remote update --prune
 Remove local branches that have been deleted from your remote (like GitHub). You can always run ```git remote prune origin --dry-run``` to see what will be deleted before going all in.
+
+# Reset local changes
+      git reset
+      git checkout .
+
+# Reset only one file
+      git checkout [NAME_OF_ORIGINAL_BRANCH] -- [NAME_OF_THE FILE]
