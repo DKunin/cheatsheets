@@ -57,3 +57,12 @@ var {foo, bar} = {foo: "lorem", bar: "ipsum"};
 ```javascript
 Math.max(...array);
 ```
+## Only numbers in certain values
+
+```javascript
+  const ONLY_NUMBERS_REGEXP = /\D/g;
+
+  if (ONLY_NUMBERS_REGEXP.test(value)) {
+      fixedValue = value.replace(ONLY_NUMBERS_REGEXP, '');
+  }
+```
