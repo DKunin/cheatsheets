@@ -61,3 +61,15 @@ Remove local branches that have been deleted from your remote (like GitHub). You
 
 # Reset only one file
       git checkout [NAME_OF_ORIGINAL_BRANCH] -- [NAME_OF_THE FILE]
+
+# Extract a file from another branch
+      git show some-branch:some-file.js
+
+# Ignore the white space
+      git diff -w
+
+# Only “add” some changes from a file
+      git add -p
+
+# Stash only some files
+      git stash -p

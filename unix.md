@@ -40,3 +40,8 @@ Runnig the command makes two folders
   find /path/to/folder/* -type d -ctime +3 | xargs echo
   find /path/to/folder/* -type d -ctime +N | xargs rm -rf
 ```
+
+## Nice column views
+```bash
+ command | column -t
+```
