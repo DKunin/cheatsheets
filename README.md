@@ -8,3 +8,4 @@
 - [Makefiles](https://github.com/dkunin/cheatsheets/tree/master/makefiles.md)
 - [Gists](https://github.com/dkunin/cheatsheets/tree/master/gists.es6.md)
 - [Arduino](https://github.com/dkunin/cheatsheets/tree/master/arduino.md)
+- [Nginx](https://github.com/dkunin/cheatsheets/tree/master/nginx.md)
