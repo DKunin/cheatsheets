@@ -74,7 +74,23 @@ Remove local branches that have been deleted from your remote (like GitHub). You
 # Stash only some files
       git stash -p
 
+[Source](http://ohshitgit.com/)
+
 # Rename branch
       git branch -m old_branch new_branch         # Rename branch locally    
       git push origin :old_branch                 # Delete the old branch    
       git push --set-upstream origin new_branch   # Push the new branch, set local branch to track the new remote
+
+# Commit to right branch
+
+      git reset HEAD~ --soft # undo the last commit, but leave the changes available
+      git add .
+      git stash
+
+      git checkout name-of-the-correct-branch # move to the correct branch
+      git stash pop
+      git add .
+      git commit -m "your message here"
+
+# No diff 
+      git diff --staged
