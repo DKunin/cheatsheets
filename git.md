@@ -94,3 +94,6 @@ Remove local branches that have been deleted from your remote (like GitHub). You
 
 # No diff 
       git diff --staged
+
+# Get list of changed files, between commits
+      git diff --name-only HEAD HEAD~14
