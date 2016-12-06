@@ -97,3 +97,6 @@ Remove local branches that have been deleted from your remote (like GitHub). You
 
 # Get list of changed files, between commits
       git diff --name-only HEAD HEAD~14
+
+# Revert merge commit
+	  git revert -m 1 [sha_of_commit]
