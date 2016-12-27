@@ -100,3 +100,6 @@ Remove local branches that have been deleted from your remote (like GitHub). You
 
 # Revert merge commit
 	  git revert -m 1 [sha_of_commit]
+
+# Get log dates
+      git log --pretty="%cd" --author="Dmitry Kunin" --since="2016-01-01" --before="2016-12-27" --no-merges > ../avito-log
