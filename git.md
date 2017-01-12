@@ -1,7 +1,7 @@
 # Git Cheatsheet
 
 ## Eradicate branch
-```
+```console
 git branch -D :localbranch
 git push origin --delete :remote_branch
 ```
@@ -103,3 +103,9 @@ Remove local branches that have been deleted from your remote (like GitHub). You
 
 # Get log dates
       git log --pretty="%cd" --author="Dmitry Kunin" --since="2016-01-01" --before="2016-12-27" --no-merges > ../avito-log
+
+# Sqaush commits
+
+      git rebase -i HEAD~3
+
+Where 3 is number of commits you want to squash back
