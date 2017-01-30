@@ -8,6 +8,7 @@
 - [ES6 (pdf)](https://github.com/dkunin/cheatsheets/tree/master/es6.pdf)
 - [Makefiles](https://github.com/dkunin/cheatsheets/tree/master/makefiles.md)
 - [Gists](https://github.com/dkunin/cheatsheets/tree/master/gists.es6.md)
+- [GitHub](https://github.com/dkunin/cheatsheets/tree/master/git-hub.es6.md)
 - [Arduino](https://github.com/dkunin/cheatsheets/tree/master/arduino.md)
 - [Nginx](https://github.com/dkunin/cheatsheets/tree/master/nginx.md)
 - [Vim](https://github.com/dkunin/cheatsheets/tree/master/vim.md)
