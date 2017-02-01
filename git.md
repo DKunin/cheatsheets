@@ -5,7 +5,13 @@
 git branch -D :localbranch
 git push origin --delete :remote_branch
 ```
+## Remove merged branches 
 
+Remember to make backups!
+
+```console
+git branch --merged | grep -v \* | xargs git branch -D 
+```
 
 ## Merge branch without merge commit
 
