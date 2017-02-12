@@ -177,3 +177,8 @@ spec:
 kubectl describe service hello-world-service
 kubectl get -o yaml service hello-world-service
 ```
+
+
+## Interesting links
+
+- [Docker for devs](https://lockmedown.com/docker-4-devs-containerizing-app/)
