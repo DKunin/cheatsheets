@@ -163,3 +163,7 @@ for i in "${arrayName[@]}"; do
 done
 
 ```
+
+## Links
+
+- [adventures-in-usr-bin](http://ablagoev.github.io/linux/adventures/commands/2017/02/19/adventures-in-usr-bin.html)
