@@ -182,3 +182,5 @@ kubectl get -o yaml service hello-world-service
 ## Interesting links
 
 - [Docker for devs](https://lockmedown.com/docker-4-devs-containerizing-app/)
+- [Docker on Pi](https://www.raspberrypi.org/blog/docker-comes-to-raspberry-pi/)
+- [Docker for ubuntu](https://docs.docker.com/engine/installation/linux/ubuntu/)
