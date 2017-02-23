@@ -185,3 +185,5 @@ kubectl get -o yaml service hello-world-service
 - [Docker on Pi](https://www.raspberrypi.org/blog/docker-comes-to-raspberry-pi/)
 - [Docker for ubuntu](https://docs.docker.com/engine/installation/linux/ubuntu/)
 - [Docker with env variables](http://stackoverflow.com/questions/30494050/how-to-pass-environment-variables-to-docker-containers)
+- [Docker save image to file](https://docs.docker.com/engine/reference/commandline/save/)
+- [Docker load image from file](https://docs.docker.com/engine/reference/commandline/load/)
