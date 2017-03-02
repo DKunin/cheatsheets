@@ -43,6 +43,11 @@ eval $(minikube docker-env)
     docker build -t (NAME) ./
 ```
 
+## Connect to container
+```console
+    docker exec -i -t 665b4a1e17b6 /bin/bash
+```
+
 ## Docker remove image
 ```console
     docker rm -i (NAME)
