@@ -1,4 +1,4 @@
-# Docker
+G Docker
 
 ## Docker deamon
 
@@ -192,3 +192,6 @@ kubectl get -o yaml service hello-world-service
 - [Docker with env variables](http://stackoverflow.com/questions/30494050/how-to-pass-environment-variables-to-docker-containers)
 - [Docker save image to file](https://docs.docker.com/engine/reference/commandline/save/)
 - [Docker load image from file](https://docs.docker.com/engine/reference/commandline/load/)
+- [Docker swarm usage](https://blog.codeship.com/docker-swarm-setting-up-a-scalable-system/)
+
+
