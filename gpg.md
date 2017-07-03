@@ -27,3 +27,4 @@
 
 ## Links
 - [Creating keys](http://www.void.gr/kargig/blog/2013/12/02/creating-a-new-gpg-key-with-subkeys/)
+- [Creating keys 2](https://alexcabal.com/creating-the-perfect-gpg-keypair/)
