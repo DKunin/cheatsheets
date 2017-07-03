@@ -12,3 +12,4 @@
 - [Arduino](https://github.com/dkunin/cheatsheets/tree/master/arduino.md)
 - [Nginx](https://github.com/dkunin/cheatsheets/tree/master/nginx.md)
 - [Vim](https://github.com/dkunin/cheatsheets/tree/master/vim.md)
+- [GPG](https://github.com/dkunin/cheatsheets/tree/master/gpg.md)
