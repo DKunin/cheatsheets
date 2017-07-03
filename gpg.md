@@ -24,3 +24,6 @@
 ```
 	gpg --allow-secret-key-import --import ~/private_key.txt
 ```
+
+## Links
+- [Creting keys](http://www.void.gr/kargig/blog/2013/12/02/creating-a-new-gpg-key-with-subkeys/)
