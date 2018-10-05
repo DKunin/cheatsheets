@@ -13,3 +13,10 @@
 	trust
 	save
 
+## Pinentry 
+
+    echo "pinentry-program /usr/bin/pinentry-curses" > ~/.gnupg/gpg-agent.conf
+
+## Reload Agent
+
+    gpg-connect-agent reloadagent /bye
