@@ -15,7 +15,7 @@
 
 ## Pinentry 
 
-    echo "pinentry-program /usr/bin/pinentry-curses" > ~/.gnupg/gpg-agent.conf
+    echo "pinentry-program /usr/bin/pinentry-mac" > ~/.gnupg/gpg-agent.conf
 
 ## Reload Agent
 
