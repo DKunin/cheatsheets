@@ -152,3 +152,9 @@ Remove local branches that have been deleted from your remote (like GitHub). You
 ```
 
 Where 3 is number of commits you want to squash back
+
+# Remove remote commits
+```
+git reset HEAD~2
+git push origin +HEAD
+```
